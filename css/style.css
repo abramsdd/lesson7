@@ -1,0 +1,197 @@
+
+@font-face {
+	font-family: "lato";
+	src: url("../font/Lato-Medium.woff2") format("woff2"), url("../font/Lato-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: "lato";
+	src: url("../font/Lato-Black.woff2") format("woff2"),url("../font/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face {
+	font-family: "lato";
+	src: url("../font/Lato-BlackItalic.woff2") format("woff2"), url("../font/Lato-BlackItalic.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: italic;
+
+}
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a {
+	color: inherit;
+}
+a:link,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+img{
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+	font-size: inherit;
+}
+
+button {
+	cursor: pointer;
+	color: inherit;
+	background-color: inherit;
+}
+body {
+	line-height: 1;
+}
+[class*="__container"]{
+	max-width: 866px;
+	margin: 0 auto;
+}
+[class*="bold"]{
+	font-family: "lato";
+	font-size: 20px;
+	line-height: 1.5;
+	font-weight: 700;
+	color: #1E212C;
+
+}
+
+
+
+.title__container{
+	padding: 36px;
+	font-size: 46px;
+	font-family: "lato";
+	font-weight: 900;
+	line-height: 1.3;
+	color: #1E212C;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+}
+.image {
+	margin: 0px 0px 66px 0px;
+}
+.top__container {
+	
+	
+}
+	
+
+.text {
+	padding-right: 72px;
+	font-family: "lato";
+	line-height: 1.6;
+	color: #424551;
+
+}
+.bold {
+
+	margin-bottom: 35px;
+}
+.text-center {
+	margin-bottom: 39px;
+}
+.text-center2 {
+	margin-bottom: 54px;
+}
+.bold-bottom {
+	padding-left: 58px;
+	background: url("../img/img-zrez.png") no-repeat, url("../img/img-zrez2.png") 18px 0 no-repeat ;
+	margin-bottom: 63px;
+}
+.buttom__container{
+	
+
+}
+.text-botton {
+	margin-bottom: 36px;
+}
+.list {
+	margin-bottom:36px ;
+	
+	
+}
+.list li{
+
+	padding-left: 35px;
+	background: url("../img/check.png") 0 3px no-repeat;
+}
+.text-botton2{
+	margin-bottom: 100px;
+
+}
+.content{
+	background: url("../img/fon.jpg");
+
+}
+
+.wanted{
+	background: fixed url("../img/4.png")  50px 100px/100px 100px no-repeat;
+
+
+}
+.practic {
+	max-width: 900px;
+	margin: 0px auto;
+	color: rgba(204, 38, 38, 0.575);
+	font-size: 20px;
+	height: 20000px;
+	
+}
+.text0 {
+	padding: 20px;
+	color: rgba(131, 187, 47, 0.733);
+	border: solid blue;
+	border-radius: 10px;
+	background: #ff0000;
+	background: radial-gradient(ellipse farthest-corner at top center, #ff0000 0%, #3e463e 80%);
+	background: -webkit-radial-gradient(ellipse farthest-corner at top center, #ff0000 0%, #3e463e 80%);
+	background: -moz-radial-gradient(ellipse farthest-corner at top center, #ff0000 0%, #3e463e 80%);
+}
+.text1 {
+	padding: 20px;
+	color: rgba(131, 187, 47, 0.733);
+	border: solid blue;
+	border-radius: 10px;
+	background: scroll url("../img/fon2.jpg") 0 0/ contain no-repeat;
+	height: 250px;
+	width: 500px;
+	margin: 0px auto;
+
+
+}
+.pricol{
+
+	background: url("../img/fon.jpg");
+	color: rgb(128, 97, 18);
+	text-align: center;
+	font-size: 30px;
+
+}

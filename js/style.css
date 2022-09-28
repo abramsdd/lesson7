@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+
+@font-face {
+	font-family:"lato";
+	src: url("../font/Lato-Black.woff2") format("woff2"),url("../font/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face {
+	font-family: "lato";
+	src: url("../font/Lato-BlackItalic.woff2") format("woff2"),url("../font/Lato-BlackItalic.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: italic;
+}
+@font-face {
+	font-family: "lato";
+	src: url("../font/Lato-Medium.woff2") format("woff2"),url("../font/Lato-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a {
+	color: inherit;
+}
+a:link,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+img{
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+	font-size: inherit;
+}
+
+button {
+	cursor: pointer;
+	color: inherit;
+	background-color: inherit;
+}
+body {
+	line-height: 1;
+}
+body{
+
+	max-width: 900px;
+	margin: 0px auto;
+}
+
+
+.title {
+	font-family: "lato";
+	font-size: 46px;
+	font-weight: 900;
+	line-height: 1.3;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	color:  #1E212C;;
+}
+.foto {
+	margin: 0 0 69px 0;
+}
+
+.text-top{
+	font-family: "lato";
+	font-weight: 400;
+	line-height: 1.5;
+	color: #424551;
+}
+.bold1{
+	font-size: 20px;
+	font-weight: 700;
+	color: #1E212C;
+	margin: 0 0 33px 0;
+}
+.text1{
+	margin-bottom: 38px;
+}
+.text2{
+	margin-bottom:60px;
+}
+.bold2{
+	font-size: 20px;
+	font-weight: 700;
+	color: #1E212C;
+	padding-left: 60px;
+	margin-bottom: 61px;
+
+}
+
+.list {
+	padding-left: 33px;
+	margin: 38px 0px;
+	line-height: 1.6;
+}
+.container{
+	width: 500px;
+}
+.container2{
+	width: 300px;
+	overflow: hidden;
+	background-color: red;
+	width: 105px;
+	height: 105px;
+	border-radius: 50%;
+	
+	
+}
+.container3{
+	border-top: 5px solid yellow ;
+	border-bottom: dashed;
+	border-left: dotted;
+	border-right: double;
+
+}
+
+.container5 span{
+	background-color: aqua;
+	overflow: scroll;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	opacity: 40%;
+}
+.container4{
+	outline: 3px dashed green;
+}
+
+.footer {
+font-size: 10px;
+padding-left: 30px;
+color: blue;
+
+}
+.footer-id{
+	
+	display: inline-block;
+	text-align: center;
+	height: 30px;
+	width: 75px;
+	border-radius:10px ;
+	background-color:rgb(255, 255, 92);
+	box-shadow: 0px 4px 3px 0px rgb(26, 26, 26), inset 0px 0px 3px 2px black;
+	padding: 8px 0px 0px 0px;
+	transition: all 0.3s ease 0s;
+}
+.footer-id:hover{
+	margin-top: 3px;
+	box-shadow: 0 2px 0 #000;
+}
